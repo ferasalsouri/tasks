@@ -15,7 +15,7 @@
 	$array= [1,14,40,17,18,19];
 		
 
-// function gets Minimise, Maximize, and odd of number
+// function gets Minimise, Maximize, and odd numbers
 
     function getCalculator($array)
 	{
@@ -31,15 +31,15 @@
 // get max of array using max() method
 		$max= @max($array) ;
       	
-// loop to calculate odd number in array
+// loop to calculate odd of number in array
       	 for($i=0 ; $i< count($array) ; $i++)
       	 	 if($array[$i] %2 ) $odd++;
 
-    	return  ['min'=> $min,'max'=>$max,'odd of number'=> $odd];      
+    	return  ['min'=> $min,'max'=>$max,'odd numbers'=> $odd];      
 	}
 	 
 
-// Returns Min, Max, and odd of numberin array
+// Returns Min, Max, and odd of numbers in array
 	
 
 	print_r(getCalculator($array));
